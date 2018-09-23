@@ -1,9 +1,41 @@
 body{
-    background: rgb(29, 28, 28);
+    background: #333;
     color: #fff;
 }
 
 .navbar{
-    border-bottom: #008ed6 3px solid;
-    opacity: 0.9;
+    border-bottom: #F6C244 3px solid;
+    opacity: 0.6;
+}
+
+#home-section{
+    background: url(../img/android.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.219)
+}
+
+#home-section .home-inner{
+    margin-top: 100px;
+}
+
+#home-section .card-form{
+    opacity: 0.8;
+}
+
+#home-section .fas {
+    color: #F6C244;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
 }

@@ -4,8 +4,8 @@ body{
 }
 
 .navbar{
-    border-bottom: #F6C244 3px solid;
-    opacity: 0.6;
+    border-bottom: rgba(246, 193, 68, 0.808) 3px solid;
+    opacity: 0.7;
 }
 
 #home-section{
@@ -26,7 +26,7 @@ body{
 }
 
 #home-section .home-inner{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #home-section .card-form{
@@ -38,4 +38,15 @@ body{
     background: #fff;
     padding: 10px;
     border-radius: 50%;
+}
+
+#explore-section .fas{
+    color: #F6C244;
+    background: #333;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#explore-head-section{
+    border-top: rgba(246, 193, 68, 0.63) 0.5px solid;
 }
